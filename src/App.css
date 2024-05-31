@@ -1,0 +1,29 @@
+body {
+  background: var(
+    --tg-theme-secondary-bg-color,
+    #18181b
+  ) !important; /* bg-zinc-900 */
+  color: var(--tg-theme-text-color, #f4f4f5) !important; /* text-zinc-100 */
+}
+
+.logo-fill {
+  color: var(--tg-theme-button-color, rgb(190, 242, 100)) !important;
+  fill: var(--tg-theme-button-color, rgb(190, 242, 100)) !important;
+}
+
+.bg-primary {
+  background: var(--tg-theme-button-color, rgb(190, 242, 100)) !important;
+  color: var(--tg-theme-button-text-color, #18181b) !important;
+}
+
+button[data-tc-connect-button="true"] {
+  background: var(--tg-theme-button-color, rgb(190, 242, 100)) !important;
+}
+
+button[data-tc-connect-button="true"] svg path {
+  fill: var(--tg-theme-button-text-color, #18181b) !important;
+}
+
+button[data-tc-connect-button="true"] [data-tc-text="true"] {
+  color: var(--tg-theme-button-text-color, #18181b) !important;
+}
