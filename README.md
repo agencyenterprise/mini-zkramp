@@ -1,30 +1,73 @@
-# React + TypeScript + Vite
+# 🚀 Mini ZKRamp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Lightning-fast USD to TUSD Transactions with Top-notch Security 🔐
 
-Currently, two official plugins are available:
+Welcome to **Mini ZKRamp**, the cutting-edge solution for ultra-fast and secure USD to TUSD transactions. Utilizing the power of zero-knowledge proofs, ZKRamp ensures that your transactions remain private while delivering unparalleled efficiency in onramp/offramp solutions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Key Features
 
-## Expanding the ESLint configuration
+- **Zero-Knowledge Proofs**: Ensure transaction privacy and security.
+- **High Efficiency**: Experience lightning-fast transaction speeds.
+- **Seamless Integration**: Works seamlessly with the TON network using their SDKs.
+- **Modern Tech Stack**: Built with Vite, React, TypeScript, Konsta, and TailwindCSS.
+- **Telegram MiniApp Platform**: Optimized to run on the Telegram MiniApp platform using their SDKs.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- **Frontend**: Vite + React + TypeScript
+- **UI Framework**: Konsta
+- **Styling**: TailwindCSS
+- **Network**: TON network SDKs
+- **Platform**: Telegram MiniApp SDKs
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Getting Started
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To get a local copy up and running, follow these simple steps.
+
+#### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js
+- yarn
+- ngrok (optional)
+
+#### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/agencyenterprise/mini-zkramp.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd mini-zkramp
+   ```
+
+3. Install dependencies:
+
+   ```sh
+   yarn install
+   ```
+
+4. Run the development server:
+
+   ```sh
+   yarn dev --host
+   ```
+
+5. Run the development server on telegram:
+
+   ```sh
+   ngrok http https://localhost:5173
+   ```
+
+   and go to bot father and create a bot with the returned URL from ngrok
+   the original bot for the project is `mini-zkramp-bot`
+
+### Usage
+
+Once the server is running, you can access the application via your local development server.
+If you did step 5 you cna access telegram and interact with the bot from there.
