@@ -3,7 +3,18 @@ body {
     --tg-theme-secondary-bg-color,
     #18181b
   ) !important; /* bg-zinc-900 */
-  color: var(--tg-theme-text-color, #f4f4f5) !important; /* text-zinc-100 */
+  color: var(--tg-theme-text-color, #18181b) !important; /* text-zinc-100 */
+  font-family: "Roboto";
+}
+
+.bg-ios-light-surface-2,
+.bg-light-surface-2 {
+  background: #c8c8cb !important;
+}
+
+.dark\:bg-ios-dark-surface-2,
+.dark\:bg-dark-surface-2 {
+  background: #18181b !important;
 }
 
 .logo-fill {

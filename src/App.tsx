@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { isAndroid } from "react-device-detect";
+import WebApp from "@twa-dev/sdk";
 
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 import Header from "./components/Header";
@@ -15,12 +16,13 @@ import { App as KApp } from "konsta/react";
 
 function App() {
   const theme = isAndroid ? "material" : "ios";
+  const dark = WebApp?.colorScheme === "dark";
 
   return (
     <TonConnectUIProvider
       manifestUrl={`https://85e1-177-2-10-195.ngrok-free.app/tonconnect-manifest.json`}
     >
-      <KApp theme={theme}>
+      <KApp dark={dark} theme={theme}>
         <Header />
         <Router>
           <Routes>
