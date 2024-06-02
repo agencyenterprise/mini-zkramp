@@ -1,8 +1,8 @@
 # 🚀 Mini ZKRamp
 
-## Lightning-fast USD to TUSD Transactions with Top-notch Security 🔐
+## Lightning-fast USD to USDT Transactions with Top-notch Security 🔐
 
-Welcome to **Mini ZKRamp**, the cutting-edge solution for ultra-fast and secure USD to TUSD transactions. Utilizing the power of zero-knowledge proofs, ZKRamp ensures that your transactions remain private while delivering unparalleled efficiency in onramp/offramp solutions.
+Welcome to **Mini ZKRamp**, the cutting-edge solution for ultra-fast and secure USD to USDT transactions. Utilizing the power of zero-knowledge proofs, ZKRamp ensures that your transactions remain private while delivering unparalleled efficiency in onramp/offramp solutions.
 
 ### Key Features
 

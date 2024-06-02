@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Block, BlockTitle } from "konsta/react";
+import { Block } from "konsta/react";
 
 const HEXAGONS = [
   {
@@ -20,7 +20,7 @@ const HEXAGONS = [
   {
     icon: "receive.svg",
     title: "Receive your crypto",
-    text: "There is nothing else to be done. AZERO is in your wallet",
+    text: "There is nothing else to be done. USDT is in your wallet",
   },
 ];
 

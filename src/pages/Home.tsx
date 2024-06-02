@@ -9,7 +9,7 @@ function Home() {
     <Page>
       <Block strong className="text-center">
         <BlockTitle className="text-4xl md:text-5xl font-extrabold leading-9 md:leading-[60px]">
-          Lightning-fast USD to TUSD Transaction with the highest level of
+          Lightning-fast USD to USDT Transaction with the highest level of
           security
         </BlockTitle>
         <Card className="mt-6 p-4">
