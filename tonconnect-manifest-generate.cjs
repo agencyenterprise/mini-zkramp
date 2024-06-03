@@ -13,7 +13,7 @@ const manifest = {
 };
 
 // Define the output path for the JSON file
-const outputPath = path.join(__dirname, "dist", "tonconnect-manifest.json");
+const outputPath = path.join(__dirname, "tonconnect-manifest.json");
 
 // Ensure the dist directory exists
 if (!fs.existsSync(path.dirname(outputPath))) {

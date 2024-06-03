@@ -17,6 +17,7 @@
 
 # Create React App build output
 /build
+tonconnect-manifest.json
 
 # Tailwind CSS build output
 /tailwind.css

@@ -20,7 +20,7 @@ function App() {
 
   return (
     <TonConnectUIProvider
-      manifestUrl={`${import.meta.env.VITE_APP_URL}/tonconnect-manifest.js`}
+      manifestUrl={`${import.meta.env.VITE_APP_URL}/tonconnect-manifest.json`}
     >
       <KApp dark={dark} theme={theme}>
         <Header />
