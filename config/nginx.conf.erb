@@ -51,33 +51,11 @@ http {
 		root /app/dist;
 
 		location / {
-			## Clean URLs: match on extensionless requests.
-			# try_files $uri $uri/ $uri.html =404;
+      try_files $uri $uri/ /index.html;
+    }
 
-			## Single-page app client-side routing: returns index.html if the requested path doesn't exist.
-			## When enabled, the client-side app must handle its own 404 errors.
-			# error_page 404 = /index.html;
-		}
-
-		## Define specific behaviors for sub directories and other locations.
-		# location /assets {
-		# 	expires 7d;
-		# }
-
-		## Custom error pages
-		# error_page 404 /404.html;
-		# error_page 500 /500.html;
+    location /tonconnect-manifest.js {
+      root /app;
+    }
 	}
-
-	## Canonical Host: redirect to a canonical hostname.
-	## Multiple server blocks may be used, one for each hostname to redirect from.
-	# server {
-	# 	server_name some-other-name.example.com;
-	# 	return 301 https://canonical-name.example.com$request_uri;
-	# }
-	# server {
-	# 	server_name yet-another-name.example.com;
-	# 	return 301 https://canonical-name.example.com$request_uri;
-	# }
-	# …
 }
