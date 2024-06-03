@@ -20,7 +20,7 @@ function App() {
 
   return (
     <TonConnectUIProvider
-      manifestUrl={`https://85e1-177-2-10-195.ngrok-free.app/tonconnect-manifest.json`}
+      manifestUrl={`${import.meta.env.VITE_APP_URL}/tonconnect-manifest.js`}
     >
       <KApp dark={dark} theme={theme}>
         <Header />
